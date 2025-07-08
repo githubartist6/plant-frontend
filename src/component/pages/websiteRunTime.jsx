@@ -11,7 +11,7 @@ const WebsiteRunTime = () => {
   });
 
   useEffect(() => {
-    const startDate = new Date("Jun 1, 2025 00:00:00").getTime();
+    const startDate = new Date("Jul 5, 2025 00:00:00").getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
