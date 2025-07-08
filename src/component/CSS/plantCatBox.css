@@ -1,0 +1,27 @@
+.multipal {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 300px;
+    flex-shrink: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.right {
+    flex: 1;
+    min-width: 200px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.right .heading {
+    font-size: 24px;
+}

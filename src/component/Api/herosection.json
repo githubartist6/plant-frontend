@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "offerTitle": "upto 75% off",
+        "title": "plant big sale special offer",
+        "image": "https://img.freepik.com/free-psd/monstera-deliciosa-plant-pot-lush-green-leaves-home-decor-indoor-plant-tropical-foliage-vibrant-green-potted-plant-houseplant-greenery-plant-photography_191095-84025.jpg?semt=ais_items_boosted&w=740",
+        "plantBtn": "shop now",
+        "link": "/"
+    },
+    {
+        "id": 2,
+        "offerTitle": "upto 45% off",
+        "title": "plant make people happy",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+        "plantBtn": "shop now",
+        "link": "/"
+    },
+    {
+        "id": 3,
+        "offerTitle": "upto 65% off",
+        "title": "decorate your home now",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/027/776/280/small_2x/home-plant-in-pot-isolated-free-photo.jpg",
+        "plantBtn": "shop now",
+        "link": "/"
+    }
+]

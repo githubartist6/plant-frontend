@@ -1,0 +1,209 @@
+:root {
+    --green: #3a9943;
+}
+
+*::selection {
+    background: var(--green);
+    color: #fff;
+}
+
+.header-1,
+.header-2,
+.header-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: var(--green);
+}
+
+.header-1 {
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+.header-3 {
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10000;
+
+    &:hover {
+        color: var(--green);
+    }
+}
+
+.header-1 span {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.header-1 a,
+.header-1 .share .i {
+    gap: 10px;
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 10px;
+    cursor: pointer;
+
+    &:hover {
+        color: yellow;
+    }
+}
+
+.header-2 .logo {
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.header-2 .logo .i {
+    color: yellow;
+}
+
+.header-2 .search-bar-container {
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    padding: 1.2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+}
+
+.header-2 .search-bar-container #search-bar {
+    width: 100%;
+    background: none;
+    text-transform: none;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.header-2 .search-bar-container #search-bar::placeholder {
+    text-transform: capitalize;
+    color: #ddd;
+}
+
+.header-2 .search-bar-container label {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+
+    &:hover {
+        color: yellow;
+    }
+}
+
+.header-3 .navbar a {
+    color: #333;
+    font-size: 2rem;
+    margin-right: 2rem;
+
+    &:hover {
+        color: #38e249;
+    }
+}
+
+.header-3 .icons .i {
+    color: #333;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--green);
+    }
+}
+
+#menu-bar {
+    font-size: 3rem;
+    color: #666;
+    border: 0.5rem solid #666;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.header-3.active1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.navactive {
+    font-weight: bold;
+    border-bottom: 2px solid #38e249;
+    transition: 0.3s;
+}
+
+/* media queries */
+
+@media (max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:991px) {
+
+    .header-1,
+    .header-2,
+    .header-3 {
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .header-3 .navbar.active {
+        display: block;
+    }
+
+    #menu-bar {
+        display: inline;
+    }
+
+    .header-3 .navbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eeeeee;
+        padding: 1rem 2rem;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+    }
+
+    .header-3 .navbar a {
+        display: block;
+        margin: 1.5rem;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        border: 0.2rem solid rgba(0, 0, 0, 0.3);
+        background: #fff;
+        text-align: center;
+    }
+
+    .header-2 {
+        flex-flow: column;
+    }
+
+    .header-2 .search-bar-container {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .header-1 {
+        display: none;
+    }
+}

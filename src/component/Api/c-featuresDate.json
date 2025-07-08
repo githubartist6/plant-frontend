@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "FaShippingFast",
+    "title": "Free Shipping",
+    "description": "Free Shipping On Order"
+  },
+  {
+    "icon": "FaMoneyBillWave",
+    "title": "100% Money Back",
+    "description": "You've 3 Days To Return"
+  },
+  {
+    "icon": "FaLock",
+    "title": "Payment Secure",
+    "description": "100% Secure Payment"
+  },
+  {
+    "icon": "FaHeadset",
+    "title": "Support 24/7",
+    "description": "Contact Us Anytime"
+  }
+]

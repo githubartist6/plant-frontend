@@ -1,0 +1,439 @@
+{
+    "herosection": [
+        {
+            "id": 1,
+            "offerTitle": "upto 75% off",
+            "title": "plant big sale special offer",
+            "image": "https://img.freepik.com/free-psd/monstera-deliciosa-plant-pot-lush-green-leaves-home-decor-indoor-plant-tropical-foliage-vibrant-green-potted-plant-houseplant-greenery-plant-photography_191095-84025.jpg?semt=ais_items_boosted&w=740",
+            "plantBtn": "shop now",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "offerTitle": "upto 45% off",
+            "title": "plant make people happy",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "plantBtn": "shop now",
+            "link": "/"
+        },
+        {
+            "id": 3,
+            "offerTitle": "upto 65% off",
+            "title": "decorate your home now",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/027/776/280/small_2x/home-plant-in-pot-isolated-free-photo.jpg",
+            "plantBtn": "shop now",
+            "link": "/"
+        }
+    ],
+    "categories": [
+        {
+            "id": 4,
+            "title": "House Plants",
+            "subtitle": "New Arrivals",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/",
+            "buttonText": "Shop Now"
+        },
+        {
+            "id": 5,
+            "title": "Office Plants",
+            "subtitle": "New Arrivals",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/",
+            "buttonText": "Shop Now"
+        },
+        {
+            "id": 6,
+            "title": "Indoor Plants",
+            "subtitle": "Best Picks",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/",
+            "buttonText": "Shop Now"
+        }
+    ],
+    "shopCategory": [
+        {
+            "id": 7,
+            "title": "Bonsai",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 8,
+            "title": "House Plants",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 9,
+            "title": "Office Plants",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 10,
+            "title": "Plants For Gift",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 11,
+            "title": "Indoor Plants",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 12,
+            "title": "Outdoor Plants",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 13,
+            "title": "Succulents",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 14,
+            "title": "Cactus",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 15,
+            "title": "Hanging Plants",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        },
+        {
+            "id": 16,
+            "title": "Flowering Plants",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "link": "/address"
+        }
+    ],
+    "newProducts": [
+        {
+            "id": 17,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-10%",
+            "title": "Green Delight",
+            "rating": 4,
+            "quantity": 1,
+            "price": 14.3,
+            "originalPrice": 18.1,
+            "link": "/address"
+        },
+        {
+            "id": 18,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-15%",
+            "title": "Fresh Fern",
+            "rating": 5,
+            "quantity": 1,
+            "price": 12.5,
+            "originalPrice": 14.9,
+            "link": "/address"
+        },
+        {
+            "id": 19,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-4%",
+            "title": "Peace Lily",
+            "rating": 3,
+            "quantity": 1,
+            "price": 10.0,
+            "originalPrice": 10.4,
+            "link": "/address"
+        },
+        {
+            "id": 20,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-12%",
+            "title": "Snake Plant",
+            "rating": 5,
+            "quantity": 1,
+            "price": 18.9,
+            "originalPrice": 21.5,
+            "link": "/address"
+        },
+        {
+            "id": 21,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-20%",
+            "title": "Aloe Vera",
+            "rating": 4,
+            "quantity": 1,
+            "price": 9.9,
+            "originalPrice": 12.4,
+            "link": "/address"
+        },
+        {
+            "id": 22,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-8%",
+            "title": "Bamboo Palm",
+            "rating": 4,
+            "quantity": 1,
+            "price": 13.2,
+            "originalPrice": 14.3,
+            "link": "/address"
+        },
+        {
+            "id": 23,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-5%",
+            "title": "Spider Plant",
+            "rating": 3,
+            "quantity": 1,
+            "price": 8.5,
+            "originalPrice": 9.0,
+            "link": "/address"
+        },
+        {
+            "id": 24,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-10%",
+            "title": "Rubber Plant",
+            "rating": 4,
+            "quantity": 1,
+            "price": 15.0,
+            "originalPrice": 16.7,
+            "link": "/address"
+        },
+        {
+            "id": 25,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-6%",
+            "title": "ZZ Plant",
+            "rating": 4,
+            "quantity": 1,
+            "price": 11.0,
+            "originalPrice": 11.7,
+            "link": "/address"
+        },
+        {
+            "id": 26,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-7%",
+            "title": "Fiddle Leaf Fig",
+            "rating": 5,
+            "quantity": 1,
+            "price": 20.5,
+            "originalPrice": 22.0,
+            "link": "/address"
+        },
+        {
+            "id": 27,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-9%",
+            "title": "Monstera",
+            "rating": 5,
+            "quantity": 1,
+            "price": 16.2,
+            "originalPrice": 17.8,
+            "link": "/address"
+        },
+        {
+            "id": 28,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+            "discount": "-11%",
+            "title": "Areca Palm",
+            "rating": 4,
+            "quantity": 1,
+            "price": 14.0,
+            "originalPrice": 15.7,
+            "link": "/address"
+        }
+    ],
+    "featuresDate": [
+        {
+            "id": 29,
+            "icon": "FaShippingFast",
+            "title": "Free Shipping",
+            "description": "Free Shipping On Order"
+        },
+        {
+            "id": 30,
+            "icon": "FaMoneyBillWave",
+            "title": "100% Money Back",
+            "description": "You've 3 Days To Return"
+        },
+        {
+            "id": 31,
+            "icon": "FaLock",
+            "title": "Payment Secure",
+            "description": "100% Secure Payment"
+        },
+        {
+            "id": 32,
+            "icon": "FaHeadset",
+            "title": "Support 24/7",
+            "description": "Contact Us Anytime"
+        }
+    ],
+    "plantCategories": [
+        {
+            "id": 33,
+            "title": "Flowering Plants (फूल वाले पौधे)",
+            "options": [
+                "Rose",
+                "Marigold",
+                "Sunflower",
+                "Jasmine"
+            ]
+        },
+        {
+            "id": 34,
+            "title": "Foliage Plants (पत्तेदार पौधे)",
+            "options": [
+                "Money Plant",
+                "Areca Palm",
+                "Ficus",
+                "Dracaena"
+            ]
+        },
+        {
+            "id": 35,
+            "title": "Succulents & Cacti (रसदार और काँटेदार पौधे)",
+            "options": [
+                "Aloe Vera",
+                "Echeveria",
+                "Cactus",
+                "Sedum"
+            ]
+        },
+        {
+            "id": 36,
+            "title": "Herbs (जड़ी-बूटी वाले पौधे)",
+            "options": [
+                "Tulsi",
+                "Mint",
+                "Basil",
+                "Coriander"
+            ]
+        },
+        {
+            "id": 37,
+            "title": "Vegetable Plants (सब्ज़ी के पौधे)",
+            "options": [
+                "Tomato",
+                "Chili",
+                "Brinjal",
+                "Cucumber",
+                "Carrot",
+                "Beans",
+                "Spinach",
+                "Peas"
+            ]
+        },
+        {
+            "id": 38,
+            "title": "Fruit Plants (फलदार पौधे)",
+            "options": [
+                "Mango",
+                "Guava",
+                "Banana",
+                "Apple",
+                "Papaya",
+                "Pomegranate",
+                "Orange",
+                "Jackfruit"
+            ]
+        },
+        {
+            "id": 39,
+            "title": "Ornamental Plants (सजावटी पौधे)",
+            "options": [
+                "Croton",
+                "Coleus",
+                "Caladium",
+                "Begonia"
+            ]
+        },
+        {
+            "id": 40,
+            "title": "Climbers & Creepers (लता और बेल पौधे)",
+            "options": [
+                "Morning Glory",
+                "Ivy",
+                "Bougainvillea",
+                "Jasmine Vine"
+            ]
+        },
+        {
+            "id": 41,
+            "title": "Medicinal Plants (औषधीय पौधे)",
+            "options": [
+                "Neem",
+                "Ashwagandha",
+                "Giloy",
+                "Amla"
+            ]
+        },
+        {
+            "id": 42,
+            "title": "Aquatic Plants (जलजीव पौधे)",
+            "options": [
+                "Water Lily",
+                "Lotus",
+                "Duckweed",
+                "Hydrilla"
+            ]
+        },
+        {
+            "id": 43,
+            "title": "Air Purifying Plants (वायु शुद्धिकरण पौधे)",
+            "options": [
+                "Snake Plant",
+                "Peace Lily",
+                "Spider Plant",
+                "Areca Palm"
+            ]
+        },
+        {
+            "id": 44,
+            "title": "Indoor Plants (घर के अंदर के पौधे)",
+            "options": [
+                "ZZ Plant",
+                "Rubber Plant",
+                "Parlor Palm",
+                "Fiddle Leaf Fig"
+            ]
+        },
+        {
+            "id": 45,
+            "title": "Outdoor Plants (बाहरी पौधे)",
+            "options": [
+                "Rose",
+                "Marigold",
+                "Hibiscus",
+                "Sunflower",
+                "Tulip"
+            ]
+        },
+        {
+            "id": 46,
+            "title": "Herbs (जड़ी-बूटी वाले पौधे)",
+            "options": [
+                "Basil (Tulsi)",
+                "Mint (Pudina)",
+                "Coriander (Dhaniya)",
+                "Rosemary",
+                "Thyme"
+            ]
+        },
+        {
+            "id": 47,
+            "title": "Trees (पेड़)",
+            "options": [
+                "Neem",
+                "Banyan",
+                "Mango",
+                "Peepal",
+                "Gulmohar"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 2rem 1.5rem;
+    background-color: #f4f8fc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.address-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.row input,
+.row select {
+    flex: 1;
+    min-width: 45%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    padding: 0.5rem;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.address-type {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.address-form .save-btn {
+    padding: 0.6rem 1.5rem;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background: none;
+    color: #1a73e8;
+    border: none;
+    margin: 5px 0px 0px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product-preview {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+}
+
+.preview-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.preview-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.top-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .row input,
+    .row select {
+        min-width: 100%;
+    }
+
+    .product-preview {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .preview-details {
+        width: 100%;
+    }
+
+    .preview-image {
+        margin-bottom: 0.5rem;
+    }
+}

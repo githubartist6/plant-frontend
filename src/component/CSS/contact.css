@@ -1,0 +1,113 @@
+.contact-container {
+  margin-top: 7rem;
+  background-color: #f0fdf4;
+  color: #1e3a1e;
+  position: relative;
+}
+
+.contact-container .header {
+  position: absolute;
+  top: -5rem;
+  font-size: 2.7rem;
+  border-left: 4px solid green;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contact-map {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+  border: none;
+}
+
+.contact-form {
+  flex: 1 1 45%;
+  min-width: 300px;
+  background: none;
+  padding: 2rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid #000000;
+  background-color: #00000000;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #22c55e;
+}
+
+.border {
+  height: 0.1rem;
+  border: 0.1rem solid #000;
+  margin-top: 8rem;
+}
+
+.button {
+  margin-bottom: 0;
+  width: 37%;
+}
+
+@media (max-width: 768px) {
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .contact-form,
+  .contact-map {
+    flex: 1 1 100%;
+  }
+
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    font-size: 16px;
+    width: 48%;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .button {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 367px) {
+
+  .contact-form,
+  .contact-map {
+    flex: 1 1 100%;
+    min-width: 250px;
+  }
+
+}

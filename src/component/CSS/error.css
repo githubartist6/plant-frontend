@@ -1,0 +1,39 @@
+#error-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#error-page .content {
+    max-width: 600px;
+}
+
+#error-page .header {
+    font-size: 8rem;
+    margin: 0;
+    color: #ff4c4c;
+}
+
+#error-page h4 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+#error-page p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #c9d1d9;
+}
+
+#error-page .btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+

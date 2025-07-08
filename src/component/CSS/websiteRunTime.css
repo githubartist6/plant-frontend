@@ -1,0 +1,96 @@
+.deal .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.deal .row .image {
+  flex: 1 1 40rem;
+}
+
+.deal .row .image img {
+  width: 100%;
+  height: 400px;
+}
+
+.deal .row .content {
+  flex: 1 1 40rem;
+}
+
+.deal .row .content .title {
+  font-size: 3.5rem;
+  color: #333;
+}
+
+.deal .row .content p {
+  font-size: 1.5rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.deal .row .content .count-down {
+  display: flex;
+  padding: 1rem 0;
+  gap: 1.5rem;
+}
+
+.deal .row .content .count-down .box {
+  width: 9rem;
+  text-align: center;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.deal .row .content .count-down .box h3 {
+  font-size: 5rem;
+  color: #333;
+}
+
+.deal .row .content .count-down .box span {
+  font-size: 1.7rem;
+  color: #fff;
+  display: block;
+  background: #666;
+  padding: 0.5rem;
+}
+
+@media (max-width:450px) {
+
+  .deal .row .content .count-down .box {
+    width: 7rem;
+  }
+
+  .deal .row .content .count-down .box h3 {
+    font-size: 3rem;
+  }
+
+  .deal .row .content .count-down .box span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:350px) {
+
+  .deal .row .content .count-down .box {
+    width: 5.5rem;
+  }
+
+  .deal .row .content .count-down .box span {
+    font-size: 1.3rem;
+  }
+
+}
+
+@media (max-width:300px) {
+
+  .deal .row .content .count-down {
+    width: 4rem;
+  }
+
+  .deal .row .content .count-down .box span {
+    font-size: 1rem;
+    text-align: start;
+    padding: 0 0.5rem 0.2rem 0.2rem;
+  }
+
+}

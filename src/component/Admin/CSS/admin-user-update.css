@@ -1,0 +1,85 @@
+/* Container Styles */
+.section-registeration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: #f0f4f8;
+}
+
+/* Form Box */
+.registration-form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.main-heading.update {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 25px;
+}
+
+/* Form Fields */
+.registration-form label {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.registration-form input:focus {
+  border-color: #3182ce;
+}
+
+/* Button */
+.update-btn {
+  background-color: #3182ce;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.update-btn:hover {
+  background-color: #2b6cb0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .registration-form {
+    padding: 25px 20px;
+  }
+
+  .main-heading.update {
+    font-size: 1.5rem;
+  }
+
+  .update-btn {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}

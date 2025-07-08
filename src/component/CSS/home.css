@@ -1,0 +1,36 @@
+.home {
+    padding-top: 0;
+}
+
+.home .home-slider {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    border-top: 0;
+    margin-top: 2%;
+}
+
+.home .home-slider .box {
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 55rem;
+    position: relative;
+}
+
+.home .home-slider .box .content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    max-width: 50rem;
+}
+
+.home .home-slider .box .content span {
+    font-size: 3rem;
+    color: #444;
+}
+
+.home .home-slider .box .content h3 {
+    font-size: 6rem;
+    color: #333;
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,109 @@
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+  position: relative;
+}
+
+span {
+  color: #efd611;
+}
+
+.admin-navbar {
+  width: 220px;
+  background-color: #1e1e1e;
+  padding: 10rem 0;
+  transition: left 0.3s ease-in-out;
+}
+
+.admin-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-li {
+  padding: 1rem 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.admin-li a {
+  font-size: 1.7rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.admin-li:hover {
+  background-color: #2a2a2a;
+}
+
+.admin-outlet {
+  height: 100vh;
+  flex: 1;
+  background-color: #1a1a1a;
+  overflow-y: auto;
+  padding: 0 1.5rem 2rem 0;
+  position: relative;
+}
+
+/* Menu & Close Icons */
+.menu-btn,
+.close-btn {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem;
+  display: none;
+}
+
+.close-btn {
+  color: red;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .admin-navbar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    z-index: 1000;
+    width: 200px;
+    padding-top: 5rem;
+  }
+
+  .admin-navbar.open {
+    left: 0;
+  }
+
+  .menu-btn {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 1100;
+    background: #efd611;
+    width: 92%;
+  }
+
+  .close-btn {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .admin-outlet {
+    margin-top: 55px;
+  }
+
+  .admin-outlet h1 {
+    font-size: 3rem;
+    margin-top: 6rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,42 @@
+.shop-category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.shop-category-card {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.shop-category-card:hover {
+  transform: translateY(-5px);
+}
+
+.shop-titelBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(4px);
+}
+
+.shop-titelBox h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.shop-category.btn {
+    width: 100%;
+  border-radius: 4px;
+}

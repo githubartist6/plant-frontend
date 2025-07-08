@@ -1,0 +1,176 @@
+/* Base container */
+.payment-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.payment-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Payment options */
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.option {
+  flex: 1 1 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.option svg {
+  font-size: 18px;
+}
+
+.option:hover,
+.option.selected {
+  background-color: #e6f5ea;
+  border-color: #4caf50;
+  color: #2e7d32;
+}
+
+/* Payment form section */
+.payment-form {
+  margin-top: 30px;
+}
+
+.upi-section input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.upi-section p {
+  font-size: 14px;
+  margin: 5px 0 15px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+.upi-section button,
+.cod-confirm button {
+  width: 100%;
+  padding: 14px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.upi-section button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upi-section button:hover:not(:disabled),
+.cod-confirm button:hover {
+  background-color: #388e3c;
+}
+
+.cod-confirm p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.upi-qr {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.upi-qr .qr-link {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+  word-break: break-all;
+}
+
+.confirm-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .payment-options {
+    flex-direction: column;
+  }
+
+  .option {
+    flex: 1 1 100%;
+  }
+
+  .payment-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .payment-container h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .upi-section input {
+    font-size: 14px;
+  }
+
+  .upi-section button,
+  .cod-confirm button {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .option {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .option svg {
+    font-size: 16px;
+  }
+}

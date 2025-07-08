@@ -1,0 +1,141 @@
+.admin-addresses {
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Section Heading */
+.admin-addresses .heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Table container with horizontal scroll */
+.admin-addresses .admin-users {
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* Table styles */
+.admin-addresses table {
+  width: 100%;
+  min-width: 1200px;
+  border-collapse: collapse;
+}
+
+.admin-addresses thead {
+  background-color: #f5f5f5;
+}
+
+.admin-addresses th,
+.admin-addresses td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+/* Highlight row on hover */
+.admin-addresses tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Action buttons */
+.admin-addresses .action-btn {
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Delete button */
+.admin-addresses .action-btn.delete {
+  color: #fff;
+  background-color: #e74c3c;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.admin-addresses .action-btn.delete:hover {
+  background-color: #c0392b;
+}
+
+/* Scrollbar styling */
+.admin-addresses .admin-users::-webkit-scrollbar {
+  height: 8px;
+}
+
+.admin-addresses .admin-users::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.admin-addresses .admin-users::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* ✅ RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .admin-addresses .admin-users {
+    padding: 0.5rem;
+  }
+
+  .admin-addresses table,
+  .admin-addresses thead,
+  .admin-addresses tbody,
+  .admin-addresses th,
+  .admin-addresses td,
+  .admin-addresses tr {
+    display: block;
+    width: 100%;
+  }
+
+  .admin-addresses thead {
+    display: none;
+  }
+
+  .admin-addresses tbody tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.75rem;
+    background: #fafafa;
+  }
+
+  .admin-addresses td {
+    position: relative;
+    padding-left: 50%;
+    white-space: normal;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .admin-addresses td::before {
+    content: attr(data-label);
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    width: 45%;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+  }
+
+  .admin-addresses .action-btn {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .admin-addresses .heading {
+    font-size: 1.5rem;
+  }
+}

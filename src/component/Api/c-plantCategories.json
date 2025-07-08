@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "title": "Flowering Plants (फूल वाले पौधे)",
+        "options": [
+            "Rose",
+            "Marigold",
+            "Sunflower",
+            "Jasmine"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Foliage Plants (पत्तेदार पौधे)",
+        "options": [
+            "Money Plant",
+            "Areca Palm",
+            "Ficus",
+            "Dracaena"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Succulents & Cacti (रसदार और काँटेदार पौधे)",
+        "options": [
+            "Aloe Vera",
+            "Echeveria",
+            "Cactus",
+            "Sedum"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Herbs (जड़ी-बूटी वाले पौधे)",
+        "options": [
+            "Tulsi",
+            "Mint",
+            "Basil",
+            "Coriander"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Vegetable Plants (सब्ज़ी के पौधे)",
+        "options": [
+            "Tomato",
+            "Chili",
+            "Brinjal",
+            "Cucumber",
+            "Carrot",
+            "Beans",
+            "Spinach",
+            "Peas"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Fruit Plants (फलदार पौधे)",
+        "options": [
+            "Mango",
+            "Guava",
+            "Banana",
+            "Apple",
+            "Papaya",
+            "Pomegranate",
+            "Orange",
+            "Jackfruit"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Ornamental Plants (सजावटी पौधे)",
+        "options": [
+            "Croton",
+            "Coleus",
+            "Caladium",
+            "Begonia"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Climbers & Creepers (लता और बेल पौधे)",
+        "options": [
+            "Morning Glory",
+            "Ivy",
+            "Bougainvillea",
+            "Jasmine Vine"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Medicinal Plants (औषधीय पौधे)",
+        "options": [
+            "Neem",
+            "Ashwagandha",
+            "Giloy",
+            "Amla"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Aquatic Plants (जलजीव पौधे)",
+        "options": [
+            "Water Lily",
+            "Lotus",
+            "Duckweed",
+            "Hydrilla"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Air Purifying Plants (वायु शुद्धिकरण पौधे)",
+        "options": [
+            "Snake Plant",
+            "Peace Lily",
+            "Spider Plant",
+            "Areca Palm"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Indoor Plants (घर के अंदर के पौधे)",
+        "options": [
+            "ZZ Plant",
+            "Rubber Plant",
+            "Parlor Palm",
+            "Fiddle Leaf Fig"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Outdoor Plants (बाहरी पौधे)",
+        "options": [
+            "Rose",
+            "Marigold",
+            "Hibiscus",
+            "Sunflower",
+            "Tulip"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Herbs (जड़ी-बूटी वाले पौधे)",
+        "options": [
+            "Basil (Tulsi)",
+            "Mint (Pudina)",
+            "Coriander (Dhaniya)",
+            "Rosemary",
+            "Thyme"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Trees (पेड़)",
+        "options": [
+            "Neem",
+            "Banyan",
+            "Mango",
+            "Peepal",
+            "Gulmohar"
+        ]
+    }
+]

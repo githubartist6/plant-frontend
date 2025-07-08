@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-10%",
+    "title": "Green Delight",
+    "rating": 4,
+    "quantity": 1,
+    "price": 14.3,
+    "originalPrice": 18.1,
+    "link":"/address"
+  },
+  {
+    "id": 2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-15%",
+    "title": "Fresh Fern",
+    "rating": 5,
+    "quantity": 1,
+    "price": 12.5,
+    "originalPrice": 14.9,
+    "link":"/address"
+  },
+  {
+    "id": 3,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-4%",
+    "title": "Peace Lily",
+    "rating": 3,
+    "quantity": 1,
+    "price": 10.0,
+    "originalPrice": 10.4,
+    "link":"/address"
+  },
+  {
+    "id": 4,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-12%",
+    "title": "Snake Plant",
+    "rating": 5,
+    "quantity": 1,
+    "price": 18.9,
+    "originalPrice": 21.5,
+    "link":"/address"
+  },
+  {
+    "id": 5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-20%",
+    "title": "Aloe Vera",
+    "rating": 4,
+    "quantity": 1,
+    "price": 9.9,
+    "originalPrice": 12.4,
+    "link":"/address"
+  },
+  {
+    "id": 6,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-8%",
+    "title": "Bamboo Palm",
+    "rating": 4,
+    "quantity": 1,
+    "price": 13.2,
+    "originalPrice": 14.3,
+    "link":"/address"
+  },
+  {
+    "id": 7,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-5%",
+    "title": "Spider Plant",
+    "rating": 3,
+    "quantity": 1,
+    "price": 8.5,
+    "originalPrice": 9.0,
+    "link":"/address"
+  },
+  {
+    "id": 8,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-10%",
+    "title": "Rubber Plant",
+    "rating": 4,
+    "quantity": 1,
+    "price": 15.0,
+    "originalPrice": 16.7,
+    "link":"/address"
+  },
+  {
+    "id": 9,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-6%",
+    "title": "ZZ Plant",
+    "rating": 4,
+    "quantity": 1,
+    "price": 11.0,
+    "originalPrice": 11.7,
+    "link":"/address"
+  },
+  {
+    "id": 10,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-7%",
+    "title": "Fiddle Leaf Fig",
+    "rating": 5,
+    "quantity": 1,
+    "price": 20.5,
+    "originalPrice": 22.0,
+    "link":"/address"
+  },
+  {
+    "id": 11,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-9%",
+    "title": "Monstera",
+    "rating": 5,
+    "quantity": 1,
+    "price": 16.2,
+    "originalPrice": 17.8,
+    "link":"/address"
+  },
+  {
+    "id": 12,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLGc1y2UwlaGy08vONo7BIjYqXRGs9Lzntg&s",
+    "discount": "-11%",
+    "title": "Areca Palm",
+    "rating": 4,
+    "quantity": 1,
+    "price": 14.0,
+    "originalPrice": 15.7,
+    "link":"/address"
+  }
+]
