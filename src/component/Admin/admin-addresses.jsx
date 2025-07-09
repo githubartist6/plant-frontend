@@ -1,4 +1,4 @@
-import "./CSS/admin-addresses.css"
+import "./CSS/admin-addresses.css";
 import { FaTrash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const PORT_BASE_URLS = import.meta.env.VITE_PORT_BASE_URL;
